@@ -1,0 +1,1181 @@
+!SESSION 2017-09-20 12:24:05.494 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.reporting.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.reporting.product
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2017-09-20 13:10:40.406
+!MESSAGE C:\Users\S528802\Repoting1\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 1
+org.eclipse.core.runtime.CoreException: C:\Users\S528802\Repoting1\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:104)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfilesByCategory(InternalProfileManager.java:200)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfilesByCategory(ProfileManager.java:88)
+	at org.eclipse.datatools.connectivity.ui.wizards.NewConnectionProfileWizardPage.createControl(NewConnectionProfileWizardPage.java:158)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:175)
+	at org.eclipse.datatools.connectivity.ui.wizards.NewConnectionProfileWizard.createPageControls(NewConnectionProfileWizard.java:309)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:696)
+	at org.eclipse.jface.wizard.WizardDialog.setWizard(WizardDialog.java:1144)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1197)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$2(WizardDialog.java:1185)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1185)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:876)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:419)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.data.ui.actions.NewDataSourceAction.run(NewDataSourceAction.java:127)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.io.FileNotFoundException: C:\Users\S528802\Repoting1\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	... 58 more
+!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2017-09-20 13:10:40.408
+!MESSAGE C:\Users\S528802\Repoting1\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\S528802\Repoting1\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfilesByCategory(InternalProfileManager.java:200)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfilesByCategory(ProfileManager.java:88)
+	at org.eclipse.datatools.connectivity.ui.wizards.NewConnectionProfileWizardPage.createControl(NewConnectionProfileWizardPage.java:158)
+	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:175)
+	at org.eclipse.datatools.connectivity.ui.wizards.NewConnectionProfileWizard.createPageControls(NewConnectionProfileWizard.java:309)
+	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:696)
+	at org.eclipse.jface.wizard.WizardDialog.setWizard(WizardDialog.java:1144)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1197)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$2(WizardDialog.java:1185)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1185)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:876)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:419)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.data.ui.actions.NewDataSourceAction.run(NewDataSourceAction.java:127)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.birt.data 4 1001 2017-09-20 13:16:45.054
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.core.DataException: Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from CLASSICMODELS.EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:353)
+	at org.eclipse.birt.data.engine.impl.PreparedQuery.doPrepare(PreparedQuery.java:463)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.produceQueryResults(PreparedDataSourceQuery.java:190)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:178)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery.execute(PreparedOdaDSQuery.java:179)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:159)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:142)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:138)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:120)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:104)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:196)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:155)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:117)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.getDataSetMetaData(DataRequestSessionImpl.java:243)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.populateAllOutputColumns(DataSetProvider.java:221)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:177)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.isValid(OutputColumnsPage.java:851)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.performOk(OutputColumnsPage.java:313)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:790)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:775)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.okPressed(DataSetEditor.java:683)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.buttonPressed(AbstractPropertyDialog.java:650)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:117)
+	at org.eclipse.birt.report.designer.data.ui.providers.EditableDataSetNodeProvider.performEdit(EditableDataSetNodeProvider.java:102)
+	at org.eclipse.birt.report.designer.internal.ui.views.DefaultNodeProvider.performRequest(DefaultNodeProvider.java:472)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.EditAction.doAction(EditAction.java:85)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run(AbstractElementAction.java:70)
+	at org.eclipse.birt.report.designer.internal.ui.views.RenameListener.doubleClick(RenameListener.java:214)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:830)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1264)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:252)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:249)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from CLASSICMODELS.EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:54)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:108)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:298)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareStatement(Connection.java:197)
+	at org.eclipse.birt.data.engine.executor.DataSource.prepareStatement(DataSource.java:302)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare(DataSourceQuery.java:296)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery(PreparedOdaDSQuery.java:621)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:349)
+	... 72 more
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:135)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.prepare(BidiStatement.java:52)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doPrepare(OdaQuery.java:240)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.prepare(OdaQuery.java:187)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:290)
+	... 77 more
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:131)
+	... 81 more
+Caused by: ERROR 42X01: Syntax error: Encountered ";" at line 2, column 29.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 87 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.055
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.056
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.056
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.056
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:16:45.056
+!MESSAGE Error Code:data.engine.fail.prepareExecution
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:16:45.056
+!MESSAGE Error Message:Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from CLASSICMODELS.EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+
+!ENTRY org.eclipse.birt.data 4 1001 2017-09-20 13:16:45.087
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.core.DataException: Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from CLASSICMODELS.EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:353)
+	at org.eclipse.birt.data.engine.impl.PreparedQuery.doPrepare(PreparedQuery.java:463)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.produceQueryResults(PreparedDataSourceQuery.java:190)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:178)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery.execute(PreparedOdaDSQuery.java:179)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:159)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:142)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:138)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:120)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:104)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:196)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:155)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:117)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.getDataSetMetaData(DataRequestSessionImpl.java:243)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.populateAllOutputColumns(DataSetProvider.java:221)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:177)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:144)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.setAnalysisTypeForColumn(OutputColumnsPage.java:604)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.performOk(OutputColumnsPage.java:326)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:790)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:775)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.okPressed(DataSetEditor.java:683)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.buttonPressed(AbstractPropertyDialog.java:650)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:117)
+	at org.eclipse.birt.report.designer.data.ui.providers.EditableDataSetNodeProvider.performEdit(EditableDataSetNodeProvider.java:102)
+	at org.eclipse.birt.report.designer.internal.ui.views.DefaultNodeProvider.performRequest(DefaultNodeProvider.java:472)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.EditAction.doAction(EditAction.java:85)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run(AbstractElementAction.java:70)
+	at org.eclipse.birt.report.designer.internal.ui.views.RenameListener.doubleClick(RenameListener.java:214)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:830)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1264)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:252)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:249)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from CLASSICMODELS.EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:54)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:108)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:298)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareStatement(Connection.java:197)
+	at org.eclipse.birt.data.engine.executor.DataSource.prepareStatement(DataSource.java:302)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare(DataSourceQuery.java:296)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery(PreparedOdaDSQuery.java:621)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:349)
+	... 73 more
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:135)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.prepare(BidiStatement.java:52)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doPrepare(OdaQuery.java:240)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.prepare(OdaQuery.java:187)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:290)
+	... 78 more
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:131)
+	... 82 more
+Caused by: ERROR 42X01: Syntax error: Encountered ";" at line 2, column 29.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 88 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.089
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.089
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.089
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:16:45.089
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:16:45.089
+!MESSAGE Error Code:data.engine.fail.prepareExecution
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:16:45.089
+!MESSAGE Error Message:Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from CLASSICMODELS.EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 29.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 29.
+
+!ENTRY org.eclipse.birt.data 4 1001 2017-09-20 13:17:39.978
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.core.DataException: Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:353)
+	at org.eclipse.birt.data.engine.impl.PreparedQuery.doPrepare(PreparedQuery.java:463)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.produceQueryResults(PreparedDataSourceQuery.java:190)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:178)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery.execute(PreparedOdaDSQuery.java:179)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:159)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:142)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:138)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:120)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:104)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:196)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:155)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:117)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.getDataSetMetaData(DataRequestSessionImpl.java:243)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.populateAllOutputColumns(DataSetProvider.java:221)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:177)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.isValid(OutputColumnsPage.java:851)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.performOk(OutputColumnsPage.java:313)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:790)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:775)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.okPressed(DataSetEditor.java:683)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.buttonPressed(AbstractPropertyDialog.java:650)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:117)
+	at org.eclipse.birt.report.designer.data.ui.providers.EditableDataSetNodeProvider.performEdit(EditableDataSetNodeProvider.java:102)
+	at org.eclipse.birt.report.designer.internal.ui.views.DefaultNodeProvider.performRequest(DefaultNodeProvider.java:472)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.EditAction.doAction(EditAction.java:85)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run(AbstractElementAction.java:70)
+	at org.eclipse.birt.report.designer.internal.ui.views.RenameListener.doubleClick(RenameListener.java:214)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:830)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1264)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:252)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:249)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:54)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:108)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:298)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareStatement(Connection.java:197)
+	at org.eclipse.birt.data.engine.executor.DataSource.prepareStatement(DataSource.java:302)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare(DataSourceQuery.java:296)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery(PreparedOdaDSQuery.java:621)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:349)
+	... 72 more
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:135)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.prepare(BidiStatement.java:52)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doPrepare(OdaQuery.java:240)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.prepare(OdaQuery.java:187)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:290)
+	... 77 more
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:131)
+	... 81 more
+Caused by: ERROR 42X01: Syntax error: Encountered ";" at line 2, column 15.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 87 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:39.979
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:39.979
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:39.979
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:39.979
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:17:39.979
+!MESSAGE Error Code:data.engine.fail.prepareExecution
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:17:39.979
+!MESSAGE Error Message:Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+
+!ENTRY org.eclipse.birt.data 4 1001 2017-09-20 13:17:40.001
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.core.DataException: Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:353)
+	at org.eclipse.birt.data.engine.impl.PreparedQuery.doPrepare(PreparedQuery.java:463)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.produceQueryResults(PreparedDataSourceQuery.java:190)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:178)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery.execute(PreparedOdaDSQuery.java:179)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:159)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:142)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:138)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:120)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:104)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:196)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:155)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:117)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.getDataSetMetaData(DataRequestSessionImpl.java:243)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.populateAllOutputColumns(DataSetProvider.java:221)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:177)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:144)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.setAnalysisTypeForColumn(OutputColumnsPage.java:604)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.performOk(OutputColumnsPage.java:326)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:790)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:775)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.okPressed(DataSetEditor.java:683)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.buttonPressed(AbstractPropertyDialog.java:650)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:117)
+	at org.eclipse.birt.report.designer.data.ui.providers.EditableDataSetNodeProvider.performEdit(EditableDataSetNodeProvider.java:102)
+	at org.eclipse.birt.report.designer.internal.ui.views.DefaultNodeProvider.performRequest(DefaultNodeProvider.java:472)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.EditAction.doAction(EditAction.java:85)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run(AbstractElementAction.java:70)
+	at org.eclipse.birt.report.designer.internal.ui.views.RenameListener.doubleClick(RenameListener.java:214)
+	at org.eclipse.jface.viewers.StructuredViewer$1.run(StructuredViewer.java:833)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.fireDoubleClick(StructuredViewer.java:830)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.handleDoubleSelect(AbstractTreeViewer.java:1470)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetDefaultSelected(StructuredViewer.java:1264)
+	at org.eclipse.jface.util.OpenStrategy.fireDefaultSelectionEvent(OpenStrategy.java:252)
+	at org.eclipse.jface.util.OpenStrategy.access$0(OpenStrategy.java:249)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:311)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:54)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:108)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:298)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareStatement(Connection.java:197)
+	at org.eclipse.birt.data.engine.executor.DataSource.prepareStatement(DataSource.java:302)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare(DataSourceQuery.java:296)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery(PreparedOdaDSQuery.java:621)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:349)
+	... 73 more
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:135)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.prepare(BidiStatement.java:52)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doPrepare(OdaQuery.java:240)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.prepare(OdaQuery.java:187)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:290)
+	... 78 more
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:131)
+	... 82 more
+Caused by: ERROR 42X01: Syntax error: Encountered ";" at line 2, column 15.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 88 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:40.002
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:40.002
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:40.002
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 13:17:40.002
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:17:40.002
+!MESSAGE Error Code:data.engine.fail.prepareExecution
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 13:17:40.002
+!MESSAGE Error Message:Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select *
+from EMPLOYEES;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 2, column 15.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 2, column 15.
+
+!ENTRY org.eclipse.birt.data 4 1001 2017-09-20 15:50:22.111
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.core.DataException: Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select * from CLASSICMODELS.CUSTOMERS;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:353)
+	at org.eclipse.birt.data.engine.impl.PreparedQuery.doPrepare(PreparedQuery.java:463)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.produceQueryResults(PreparedDataSourceQuery.java:190)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:178)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery.execute(PreparedOdaDSQuery.java:179)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:159)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:142)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:138)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:120)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:104)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:196)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:155)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:117)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.getDataSetMetaData(DataRequestSessionImpl.java:243)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.populateAllOutputColumns(DataSetProvider.java:221)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:177)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.isValid(OutputColumnsPage.java:851)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.performOk(OutputColumnsPage.java:313)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:790)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:775)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.okPressed(DataSetEditor.java:683)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.buttonPressed(AbstractPropertyDialog.java:650)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:117)
+	at org.eclipse.birt.report.designer.data.ui.actions.EditDataSetAction.doAction(EditDataSetAction.java:105)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run(AbstractElementAction.java:70)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select * from CLASSICMODELS.CUSTOMERS;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:54)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:108)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:298)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareStatement(Connection.java:197)
+	at org.eclipse.birt.data.engine.executor.DataSource.prepareStatement(DataSource.java:302)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare(DataSourceQuery.java:296)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery(PreparedOdaDSQuery.java:621)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:349)
+	... 62 more
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:135)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.prepare(BidiStatement.java:52)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doPrepare(OdaQuery.java:240)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.prepare(OdaQuery.java:187)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:290)
+	... 67 more
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:131)
+	... 71 more
+Caused by: ERROR 42X01: Syntax error: Encountered ";" at line 1, column 38.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 77 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.112
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.112
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.112
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.112
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 15:50:22.112
+!MESSAGE Error Code:data.engine.fail.prepareExecution
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 15:50:22.112
+!MESSAGE Error Message:Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select * from CLASSICMODELS.CUSTOMERS;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+
+!ENTRY org.eclipse.birt.data 4 1001 2017-09-20 15:50:22.145
+!MESSAGE A BIRT exception occurred.
+!STACK 0
+org.eclipse.birt.data.engine.core.DataException: Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select * from CLASSICMODELS.CUSTOMERS;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:353)
+	at org.eclipse.birt.data.engine.impl.PreparedQuery.doPrepare(PreparedQuery.java:463)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.produceQueryResults(PreparedDataSourceQuery.java:190)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:178)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery.execute(PreparedOdaDSQuery.java:179)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:159)
+	at org.eclipse.birt.data.engine.impl.PreparedDataSourceQuery.execute(PreparedDataSourceQuery.java:142)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:138)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:120)
+	at org.eclipse.birt.report.data.adapter.impl.QueryExecutionHelper.executeQuery(QueryExecutionHelper.java:104)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRuntimeMetaData(DataSetMetaDataHelper.java:196)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getRealMetaData(DataSetMetaDataHelper.java:155)
+	at org.eclipse.birt.report.data.adapter.impl.DataSetMetaDataHelper.getDataSetMetaData(DataSetMetaDataHelper.java:117)
+	at org.eclipse.birt.report.data.adapter.impl.DataRequestSessionImpl.getDataSetMetaData(DataRequestSessionImpl.java:243)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.populateAllOutputColumns(DataSetProvider.java:221)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:177)
+	at org.eclipse.birt.report.designer.data.ui.util.DataSetProvider.getColumns(DataSetProvider.java:144)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.setAnalysisTypeForColumn(OutputColumnsPage.java:604)
+	at org.eclipse.birt.report.designer.data.ui.dataset.OutputColumnsPage.performOk(OutputColumnsPage.java:326)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:790)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.okPressed(AbstractPropertyDialog.java:775)
+	at org.eclipse.birt.report.designer.data.ui.dataset.DataSetEditor.okPressed(DataSetEditor.java:683)
+	at org.eclipse.birt.report.designer.data.ui.property.AbstractPropertyDialog.buttonPressed(AbstractPropertyDialog.java:650)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.birt.report.designer.ui.dialogs.BaseDialog.open(BaseDialog.java:117)
+	at org.eclipse.birt.report.designer.data.ui.actions.EditDataSetAction.doAction(EditDataSetAction.java:105)
+	at org.eclipse.birt.report.designer.internal.ui.views.actions.AbstractElementAction.run(AbstractElementAction.java:70)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.birt.data.engine.odaconsumer.OdaDataException: Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select * from CLASSICMODELS.CUSTOMERS;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.newException(ExceptionHandler.java:54)
+	at org.eclipse.birt.data.engine.odaconsumer.ExceptionHandler.throwException(ExceptionHandler.java:108)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:298)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareStatement(Connection.java:197)
+	at org.eclipse.birt.data.engine.executor.DataSource.prepareStatement(DataSource.java:302)
+	at org.eclipse.birt.data.engine.executor.DataSourceQuery.prepare(DataSourceQuery.java:296)
+	at org.eclipse.birt.data.engine.impl.PreparedOdaDSQuery$OdaDSQueryExecutor.prepareOdiQuery(PreparedOdaDSQuery.java:621)
+	at org.eclipse.birt.data.engine.impl.QueryExecutor.prepareExecution(QueryExecutor.java:349)
+	... 63 more
+Caused by: org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:135)
+	at org.eclipse.birt.report.data.oda.jdbc.bidi.BidiStatement.prepare(BidiStatement.java:52)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.doPrepare(OdaQuery.java:240)
+	at org.eclipse.datatools.connectivity.oda.consumer.helper.OdaQuery.prepare(OdaQuery.java:187)
+	at org.eclipse.birt.data.engine.odaconsumer.Connection.prepareOdaQuery(Connection.java:290)
+	... 68 more
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.Statement.prepare(Statement.java:131)
+	... 72 more
+Caused by: ERROR 42X01: Syntax error: Encountered ";" at line 1, column 38.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatementOrSearchCondition(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 78 more
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.146
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.146
+!MESSAGE Plug-in Name:BIRT Data Engine
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.146
+!MESSAGE Plug-in ID:org.eclipse.birt.data
+!SUBENTRY 1 org.eclipse.birt.data 1 1001 2017-09-20 15:50:22.146
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 15:50:22.146
+!MESSAGE Error Code:data.engine.fail.prepareExecution
+!SUBENTRY 1 org.eclipse.birt.data 4 1001 2017-09-20 15:50:22.146
+!MESSAGE Error Message:Failed to prepare the query execution for the data set: first Data Set
+Failed to prepare the following query for the data set type (org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet). 
+[select * from CLASSICMODELS.CUSTOMERS;]
+    org.eclipse.birt.report.data.oda.jdbc.JDBCException: Error preparing SQL statement.
+SQL error #1:Syntax error: Encountered ";" at line 1, column 38.
+ ;
+    java.sql.SQLSyntaxErrorException: Syntax error: Encountered ";" at line 1, column 38.
+
+!ENTRY uk.co.spudsoft.birt.emitters.excel 1 0 2017-09-20 18:05:28.888
+!MESSAGE start:org.eclipse.birt.report.engine.content.impl.ReportContent@1e291bfe
+
+!ENTRY uk.co.spudsoft.birt.emitters.excel 1 0 2017-09-21 13:15:40.026
+!MESSAGE start:org.eclipse.birt.report.engine.content.impl.ReportContent@79841ce3
+
+!ENTRY uk.co.spudsoft.birt.emitters.excel 1 0 2017-09-21 13:59:07.158
+!MESSAGE start:org.eclipse.birt.report.engine.content.impl.ReportContent@7a071a59
+
+!ENTRY uk.co.spudsoft.birt.emitters.excel 1 0 2017-09-21 14:02:54.318
+!MESSAGE start:org.eclipse.birt.report.engine.content.impl.ReportContent@4f0b7e88
+
+!ENTRY uk.co.spudsoft.birt.emitters.excel 1 0 2017-09-22 16:04:34.997
+!MESSAGE start:org.eclipse.birt.report.engine.content.impl.ReportContent@404353f1
+
+!ENTRY uk.co.spudsoft.birt.emitters.excel 1 0 2017-09-22 16:06:15.460
+!MESSAGE start:org.eclipse.birt.report.engine.content.impl.ReportContent@29f2c96f
+!SESSION 2017-09-26 19:19:32.856 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.reporting.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.reporting.product
+
+!ENTRY org.eclipse.birt.report.designer.ui 4 1001 2017-09-26 19:20:13.614
+!MESSAGE File not found:C:\Users\S528802\Desktop\Gembali_ReortsDemo\Demo\firstreport.rptdesign (The system cannot find the file specified)
+!STACK 0
+org.eclipse.birt.report.designer.core.runtime.GUIException: File not found:C:\Users\S528802\Desktop\Gembali_ReortsDemo\Demo\firstreport.rptdesign (The system cannot find the file specified)
+	at org.eclipse.birt.report.designer.core.runtime.GUIException.createGUIException(GUIException.java:78)
+	at org.eclipse.birt.report.designer.internal.ui.util.ExceptionHandler.handle(ExceptionHandler.java:116)
+	at org.eclipse.birt.report.designer.internal.ui.ide.adapters.IDEFileReportProvider.getReportModuleHandle(IDEFileReportProvider.java:539)
+	at org.eclipse.birt.report.designer.internal.ui.ide.adapters.IDEFileReportProvider.getReportModuleHandle(IDEFileReportProvider.java:110)
+	at org.eclipse.birt.report.designer.ui.editors.MultiPageReportEditor.addPages(MultiPageReportEditor.java:424)
+	at org.eclipse.birt.report.designer.ui.editors.IDEMultiPageReportEditor.addPages(IDEMultiPageReportEditor.java:366)
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:140)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:363)
+	at org.eclipse.birt.report.designer.ui.editors.ReportEditorProxy.createPartControl(ReportEditorProxy.java:146)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:54)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4813)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$5.widgetSelected(StackRenderer.java:1095)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3167)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1850)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:333)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: java.io.FileNotFoundException: C:\Users\S528802\Desktop\Gembali_ReortsDemo\Demo\firstreport.rptdesign (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.designer.internal.ui.ide.adapters.IDEFileReportProvider.getReportModuleHandle(IDEFileReportProvider.java:528)
+	... 88 more
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2017-09-26 19:20:13.617
+!MESSAGE Plug-in Provider:Eclipse BIRT Project
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2017-09-26 19:20:13.617
+!MESSAGE Plug-in Name:BIRT Designer UI
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2017-09-26 19:20:13.617
+!MESSAGE Plug-in ID:org.eclipse.birt.report.designer.ui
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 1 1001 2017-09-26 19:20:13.617
+!MESSAGE Version:4.6.0.v201606072122
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 4 1001 2017-09-26 19:20:13.617
+!MESSAGE Error Code:Error.GUIException.invokedByIOException
+!SUBENTRY 1 org.eclipse.birt.report.designer.ui 4 1001 2017-09-26 19:20:13.617
+!MESSAGE Error Message:File not found:C:\Users\S528802\Desktop\Gembali_ReortsDemo\Demo\firstreport.rptdesign (The system cannot find the file specified)
